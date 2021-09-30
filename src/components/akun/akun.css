@@ -1,0 +1,72 @@
+body {
+    background-color: #ECFAF1;
+}
+@font-face {
+    font-family: Smartgen;
+    src: url(LobsterTwo-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: sign up;
+    src: url(Lemonada-VariableFont_wght.ttf);
+  }
+
+  .home {
+    position: absolute;
+left: 18%;
+right: 77.9%;
+top: 5.7%;
+bottom: 89.84%;
+
+color: #204051;
+
+  }
+.tittle {
+    position: absolute;
+    width: 165px;
+    height: 25px;
+    left: 97px;
+    top: 47px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+/* or 100% */
+
+text-align: center;
+
+/* Colors / Black 800 */
+
+color: #474A57;
+}
+
+.ikon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 50px;
+  top: 112px;
+
+}
+
+.data-diri {
+  position: absolute;
+width: 242px;
+height: 81px;
+left: 150px;
+top: 111px;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 28px;
+/* identical to box height, or 233% */
+
+
+/* Colors / Black */
+
+color: #18191F;
+}
