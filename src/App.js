@@ -3,9 +3,9 @@ import "./App.css";
 
 import Pembukaan from "./components/pembukaan";
 import Signup from "./components/signup/Signup";
-import Bot from "./components/bot/Bot";
 import Fitur from "./components/fitur/Fitur";
 import Akun from "./components/akun/Akun";
+import Jurnal from "./components/jurnal/Jurnal"
  
 function App() {
     return (
@@ -19,16 +19,16 @@ function App() {
                     <Signup />
                 </Route>
 
-                <Route exact path="/bot">
-                    <Bot />
-                </Route>
-
                 <Route exact path="/fitur">
                     <Fitur />
                 </Route>
 
                 <Route exact path="/akun">
                     <Akun />
+                </Route>
+
+                <Route exact path="/jurnal">
+                    <Jurnal />
                 </Route>
             </Switch>
         </Router>
